@@ -1,48 +1,87 @@
-<style>
-    body {
-        font-family: 'Arial', sans-serif;
-        background-color: #f4f4f4;
-        color: #333;
-        margin: 0;
-        padding: 0;
-    }
+<!DOCTYPE html>
+<html lang="pt-br">
 
-    header {
-        background-color: #4285f4;
-        color: #ffffff;
-        padding: 1em;
-        text-align: center;
-    }
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Site</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+    
+        header {
+            background-color: #4285f4;
+            color: #ffffff;
+            padding: 1em;
+            text-align: center;
+        }
+    
+        nav {
+            background-color: #333;
+            color: #ffffff;
+            padding: 1em;
+        }
+    
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+    
+        nav a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+        }
+    
+        section {
+            padding: 20px;
+            margin: 10px;
+        }
+    
+        footer {
+            background-color: #333;
+            color: #ffffff;
+            padding: 1em;
+            text-align: center;
+        }
+    </style>
+    
+</head>
 
-    nav {
-        background-color: #333;
-        color: #ffffff;
-        padding: 1em;
-    }
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Site</h1>
+    </header>
 
-    nav ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        display: flex;
-        justify-content: space-around;
-    }
+    <nav>
+        <ul>
+            <li><a href="#">Página Inicial</a></li>
+            <li><a href="#">Sobre Nós</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
 
-    nav a {
-        text-decoration: none;
-        color: #ffffff;
-        font-weight: bold;
-    }
+    <section>
+        <h2>Sobre Nós</h2>
+        <p>Este é um site incrível criado pela nossa equipe.</p>
+    </section>
 
-    section {
-        padding: 20px;
-        margin: 10px;
-    }
+    <section>
+        <h2>Contato</h2>
+        <p>Você pode nos contatar através do email: contato@meusite.com</p>
+    </section>
 
-    footer {
-        background-color: #333;
-        color: #ffffff;
-        padding: 1em;
-        text-align: center;
-    }
-</style>
+    <footer>
+        <p>&copy; 2023 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
